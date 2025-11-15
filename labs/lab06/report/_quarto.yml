@@ -29,7 +29,7 @@ format:
     colorlinks: false
     toc-depth: 2
     lof: true # List of figures
-    lot: true # List of tables
+    lol: true # List of 
 #### Document
     documentclass: scrreprt
     papersize: a4
@@ -53,6 +53,7 @@ format:
       \usepackage{float}
       \floatplacement{figure}{H}
       \usepackage{libertine}
+      \usepackage{listings}
     # \usepackage[math,RM={Scale=0.94},SS={Scale=0.94},SScon={Scale=0.94},TT={Scale=MatchLowercase,FakeStretch=0.9},DefaultFeatures={Ligatures=Common}]{plex-otf}
 ### Docx output format
   docx:
